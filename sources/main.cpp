@@ -1,9 +1,7 @@
 #include "grid.h"
-#include <time.h>
 
 
 int main() {
-    srand(time(0));
 
     sf::VideoMode videoMode { (unsigned int)WINDOW_SIZE.getX(), (unsigned int)WINDOW_SIZE.getY() };
     sf::RenderWindow window(videoMode, WINDOW_TITLE, sf::Style::Titlebar | sf::Style::Close);
